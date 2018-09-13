@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "25528041523",
+    "firebase_url": "https://world-trending-news.firebaseio.com",
+    "project_id": "world-trending-news",
+    "storage_bucket": "world-trending-news.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25528041523:android:f32d67dd5990935d",
+        "android_client_info": {
+          "package_name": "iniyan.com.smartnews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25528041523-nqbc4kcos8b5kd1ftt0hs12unu355afl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "iniyan.com.smartnews",
+            "certificate_hash": "75c727e8ceaaca66561f25c98b66822ffcc35d23"
+          }
+        },
+        {
+          "client_id": "25528041523-dl5qmj707102p727td1050iqsqd4q8vd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "25528041523-dl5qmj707102p727td1050iqsqd4q8vd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJnKpNQJ2i-f8wDxKnhYrXotbCcrgfteA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25528041523-dl5qmj707102p727td1050iqsqd4q8vd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

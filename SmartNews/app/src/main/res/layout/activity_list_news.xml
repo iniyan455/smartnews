@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/swipe_to_refresh"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        
+        android:layout_height="match_parent">
+
+<com.github.florent37.diagonallayout.DiagonalLayout
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:id="@+id/diagonalLayout"
+    app:diagonal_direction="left"
+    app:diagonal_position="bottom"
+    app:diagonal_angle="5">
+
+<com.flaviofaria.kenburnsview.KenBurnsView
+    android:scaleType="centerCrop"
+    android:id="@+id/top_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <TextView
+           android:id="@+id/top_author"
+
+
+            android:layout_width="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="25sp"
+            android:textColor="@android:color/white"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Author"
+            android:layout_height="wrap_content" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_alignParentStart="true"
+    android:background="#a0333639"
+    android:layout_alignParentBottom="true"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/top_title"
+
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Title"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+    </RelativeLayout>
+
+</com.github.florent37.diagonallayout.DiagonalLayout>
+        
+        
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/list_news"
+            android:layout_below="@+id/diagonalLayout"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+        
+    </RelativeLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>
